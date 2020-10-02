@@ -5,6 +5,7 @@
 import requests
 import pandas as pd
 import numpy as np
+import folium
 
 #Setting up the world countries data URL
 url = 'https://raw.githubusercontent.com/python-visualization/folium/master/examples/data'
