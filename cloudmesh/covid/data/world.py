@@ -18,7 +18,6 @@ def add_log(data, col):
   return data
 
 
-
 def get_covid_data():
 
   #download the data from he virustracker
