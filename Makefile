@@ -87,8 +87,8 @@ patch: clean requirements
 	$(call banner, "bbuild")
 	bump2version --no-tag --allow-dirty patch
 	python setup.py sdist bdist_wheel
-	git push
-	# git push origin master --tags
+	-git push
+	-git push origin master --tags
 	twine check dist/*
 	twine upload --repository testpypi  dist/*
 	# $(call banner, "install")
