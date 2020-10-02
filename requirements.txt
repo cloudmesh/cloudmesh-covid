@@ -8,4 +8,6 @@ cloudmesh-configuration
 #
 #    pip-compile setup.py
 #
-folium
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
